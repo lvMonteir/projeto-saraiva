@@ -1,0 +1,16 @@
+.toolbar {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .pesquisar {
+    height: 60px;
+  }
+}

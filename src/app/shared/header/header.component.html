@@ -1,0 +1,23 @@
+<mat-toolbar class="toolbar" color="primary">
+  <div>
+    <span>Saraivo</span>
+  </div>
+
+  <mat-form-field class="pesquisar">
+    <input
+      type="text"
+      placeholder="O que você está procurando?"
+      matInput
+      formControlName="time"
+      [matAutocomplete]="auto"
+    />
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option> </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</mat-toolbar>
+
+<!-- <div class="width-divider"> -->
+<!-- <mat-divider backgroundColor="primary"></mat-divider>
+  <mat-divider backgroundColor="primary"></mat-divider> -->
+<!-- </div> -->
